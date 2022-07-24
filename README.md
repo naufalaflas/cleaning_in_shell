@@ -26,4 +26,8 @@ csvcut -c 5 sudah_di_filter_baris_purchase.csv | awk -F "." '{print $1,$NF}' >  
 - merubah nama column harus manual menggunakan VIM
 
 3. Cara running 
-- run `./clean.sh`
+- Run `./clean.sh` di dalam folder yang ada file 2019-oct-sample.csv dan 2019-nov-sample.csv
+
+
+4. Saran perbaikan
+- Ini merupakan salah satu project pertama saya mungkin masih ada yang harus saya perbaiki, maka dari itu mohon kritik dan sarannya.
