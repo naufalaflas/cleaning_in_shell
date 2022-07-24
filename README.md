@@ -31,3 +31,5 @@ csvcut -c 5 sudah_di_filter_baris_purchase.csv | awk -F "." '{print $1,$NF}' >  
 
 4. Saran perbaikan
 - Ini merupakan salah satu project pertama saya mungkin masih ada yang harus saya perbaiki, maka dari itu mohon kritik dan sarannya.
+- nama kolom category dan product_nama harus di edit manual menggunakan vim
+
